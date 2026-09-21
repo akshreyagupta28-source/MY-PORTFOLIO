@@ -2,6 +2,13 @@
 
 <div align="center">
 
+  <!-- Live Demo Button -->
+  <a href="https://akshreyagupta28-source.github.io/MY-PORTFOLIO/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_WEBSITE-Visit_Portfolio-00F0FF?style=for-the-badge&logoColor=black" alt="Live Website" />
+  </a>
+
+  <br><br>
+
   <!-- Badges -->
   <a href="https://github.com/akshreyagupta28-source">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
