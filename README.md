@@ -1,4 +1,4 @@
-# 🚀 Shreya Gupta | Developer & Data Science Portfolio
+# 🚀 Shreya Gupta | Data Science Portfolio
 
 <div align="center">
 
