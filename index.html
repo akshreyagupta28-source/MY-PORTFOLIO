@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[SHREYA GUPTA] | ASPIRING DATA SCIENTIST </title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <!-- Animated Background Grid -->
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="neon-text-cyan">&lt;</span>
+                <span class="logo-text">[Portfolio]</span>
+                <span class="neon-text-magenta">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="#hero" class="logo">
+                <span class="neon-text-cyan">&lt;</span>
+                <span class="logo-text">[Portfolio]</span>
+                <span class="neon-text-magenta">/&gt;</span>
+            </a>
+            <i class="fas fa-times mobile-menu-close"></i>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+            <li><a href="#education" class="mobile-nav-link">Education</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section">
+            <div class="hero-content">
+                <p class="greeting neon-text-cyan">"Hello, Everyone!!"</p>
+                <h1 class="hero-title">I AM SHREYA GUPTA</h1>
+                <h2 class="subtitle">Data Science Student Intern <span class="blinking-cursor">|</span></h2>
+                <p class="hero-desc">Passionate about data analysis, machine learning, and extracting insights from data.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary glow-on-hover">View Projects_</a>
+                    <a href="#contact" class="btn btn-outline glow-on-hover">Initiate Contact</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-magenta">01. <span class="white-text">About_Me</span></h2>
+                <div class="glass-card about-card hidden-element">
+                    <div class="about-grid">
+                        <div class="about-image-container">
+                            <div class="about-image-placeholder">
+                                <img src="images/proffesional pic.png" alt="Shreya Gupta - Profile" class="about-profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                                <div class="about-fallback-icon" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+                                    <i class="fas fa-user-astronaut" style="font-size: 4rem; color: var(--cyan);"></i>
+                                </div>
+                            </div>
+                            <div class="image-frame"></div>
+                        </div>
+                        <div class="about-text">
+                            <p>Computer Science engineering student with hands-on experience as a Data Science Intern at Triple One Solutions and Bharat Cares (in collaboration with IBM). Skilled in Python, NumPy, Pandas, and Matplotlib, with practical experience building and evaluating machine learning models. Strong foundation in programming and a growing interest in data analysis and applied machine learning.</p>
+                            <div class="status-indicator">
+                                <span class="dot blinking-dot"></span> Status: Ready for new opportunities.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-cyan">02. <span class="white-text">Tech_Stack</span></h2>
+                <div class="skills-grid">
+                    <div class="glass-card skill-card hidden-element">
+                        <i class="fab fa-python skill-icon py-color"></i>
+                        <h3>Python, C, C++</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">Programming Languages</p>
+                    </div>
+                    <div class="glass-card skill-card hidden-element delay-1">
+                        <i class="fas fa-brain skill-icon react-color"></i>
+                        <h3>Machine Learning</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">scikit-learn, XGBoost, SMOTE</p>
+                    </div>
+                    <div class="glass-card skill-card hidden-element delay-2">
+                        <i class="fas fa-chart-bar skill-icon node-color"></i>
+                        <h3>Data Analysis</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">NumPy, Pandas, Matplotlib</p>
+                    </div>
+                    <div class="glass-card skill-card hidden-element">
+                        <i class="fas fa-code skill-icon db-color"></i>
+                        <h3>Web Technologies</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="glass-card skill-card hidden-element delay-1">
+                        <i class="fas fa-tools skill-icon git-color"></i>
+                        <h3>Tools</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">Jupyter, VS Code, Canva</p>
+                    </div>
+                    <div class="glass-card skill-card hidden-element delay-2">
+                        <i class="fas fa-certificate skill-icon js-color"></i>
+                        <h3>Certifications</h3>
+                        <p style="font-size: 0.85rem; color: #a0a0a0; margin-top: 10px;">Data Analyst, Web Dev, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-purple">03. <span class="white-text">System_Logs(Projects)</span></h2>
+                <div class="projects-grid">
+                    <div class="glass-card project-card hidden-element">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-cyan">
+                                <span>[CREDIT CARD FRAUD DETECTION]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-cyan">CREDIT CARD FRAUD DETECTION</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/Credit-Card-Fraud-Detection" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Independently built a credit card fraud detection project using a Kaggle transaction dataset. Trained and evaluated Logistic Regression, Random Forest, and XGBoost models for fraud classification, applying SMOTE to address class imbalance.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">XGBoost</span>
+                                <span class="tag">SMOTE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element delay-1">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-magenta">
+                                <span>[IBM DATA SCIENCE PROJECT]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-magenta">Population diversity Dashboard</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/population_diversity_dashboard" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Selected to independently build a data science project as the next phase of the internship at Bharat Cares (in collaboration with IBM), utilizing data science fundamentals.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Data Analysis</span>
+                                <span class="tag">IBM SkillsBuild</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element delay-2">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-purple">
+                                <span>[CERTIFICATIONS & WORKSHOPS]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-purple">Workshops & Skills</h3>
+                                <div class="project-links">
+                                    <a href="https://www.linkedin.com/in/shreya-gupta-42a775326" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Participated in various workshops including Quadcopters and Blockchain (IIT Roorkee). Completed certifications in Data Analysis (OneRoadmap), Web Development, Data Fundamentals, and Getting Started With Data (IBM SkillsBuild), plus MongoDB Basics.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Blockchain</span>
+                                <span class="tag">Data Analyst</span>
+                                <span class="tag">Web Dev</span>
+                                <span class="tag">IBM SkillsBuild</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-cyan">
+                                <span>[CUSTOMER CHURN PREDICTION]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-cyan">Customer Churn Prediction</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/Customer_Churn_Prediction" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Predicts whether a telecom customer will churn (leave the company) or not, based on their account and service usage details.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Jupyter</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element delay-1">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-magenta">
+                                <span>[BLOOD DONATION MANAGEMENT]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-magenta">Blood Donation Management</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/blood-donation-management" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Mini project based on the concepts of Object-Oriented Programming (OOP) for managing blood donation records and operations.</p>
+                            <div class="tech-tags">
+                                <span class="tag">C++</span>
+                                <span class="tag">OOP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element delay-2">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-purple">
+                                <span>[RANDOM PASSWORD GENERATOR]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-purple">Random Password Generator</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/Random_password" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Python utility that generates strong, secure random passwords for enhanced account security.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card hidden-element">
+                        <div class="project-img-wrapper">
+                            <div class="project-img-placeholder neon-border-cyan">
+                                <span>[GUESS THE NUMBER GAME]</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3 class="neon-text-cyan">Guess the Number Game</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/akshreyagupta28-source/guess-the-number-" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">Interactive Python game where the player guesses a randomly generated number within a range of attempts.</p>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Game</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-cyan">04. <span class="white-text">Operation_History</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item hidden-element">
+                        <div class="timeline-dot glow-cyan"></div>
+                        <div class="glass-card timeline-content">
+                            <div class="timeline-header">
+                                <h3>Data Science Intern</h3>
+                                <span class="timeline-date">Jul 2026 - Present</span>
+                            </div>
+                            <h4 class="company-name">@ Bharat Cares (in collaboration with IBM)</h4>
+                            <ul class="timeline-tasks">
+                                <li>Completing a structured learning plan covering data and data science fundamentals as part of an IBM-affiliated program.</li>
+                                <li>Selected to independently build a data science project as the next phase of the internship.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item hidden-element">
+                        <div class="timeline-dot glow-magenta"></div>
+                        <div class="glass-card timeline-content">
+                            <div class="timeline-header">
+                                <h3>Data Science Intern</h3>
+                                <span class="timeline-date">May 2026 - Jul 2026</span>
+                            </div>
+                            <h4 class="company-name">@ Triple One Solutions</h4>
+                            <ul class="timeline-tasks">
+                                <li>Completed a one-month structured training in Python, NumPy, Pandas, and Matplotlib for data analysis and visualization.</li>
+                                <li>Independently built a credit card fraud detection project using a Kaggle transaction dataset.</li>
+                                <li>Trained and evaluated Logistic Regression, Random Forest, and XGBoost models for fraud classification, applying SMOTE to address class imbalance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-purple">04.5 <span class="white-text">Education</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item hidden-element">
+                        <div class="timeline-dot glow-purple"></div>
+                        <div class="glass-card timeline-content">
+                            <div class="timeline-header">
+                                <h3>B.Tech, Computer Science Engineering</h3>
+                                <span class="timeline-date">2024 - 2028</span>
+                            </div>
+                            <h4 class="company-name">Arya College of Engineering</h4>
+                            <p>Sem 1: 8.71 SGPA | Sem 2: 8.95 SGPA | Sem 3: 8.59 SGPA</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item hidden-element">
+                        <div class="timeline-dot glow-purple"></div>
+                        <div class="glass-card timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Secondary (CBSE, Class 12)</h3>
+                                <span class="timeline-date">2024</span>
+                            </div>
+                            <h4 class="company-name">Kiddy's Corner Higher Secondary School, Gwalior</h4>
+                            <p>Percentage: 70.2%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item hidden-element">
+                        <div class="timeline-dot glow-purple"></div>
+                        <div class="glass-card timeline-content">
+                            <div class="timeline-header">
+                                <h3>Secondary (CBSE, Class 10)</h3>
+                                <span class="timeline-date">2022</span>
+                            </div>
+                            <h4 class="company-name">Carmel Convent Senior Secondary School, Gwalior</h4>
+                            <p>Percentage: 83%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title neon-text-magenta">05. <span class="white-text">Transmit_Signal</span></h2>
+                <div class="contact-wrapper hidden-element">
+                    <div class="glass-card contact-card">
+                        <h3 class="contact-heading">Open Comm Channel</h3>
+                        <p class="contact-text">I am currently looking for new opportunities in data science and machine learning. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        
+                        <form class="contact-form" id="contactForm" action="https://formsubmit.co/akshreyagupta28@gmail.com" method="POST">
+                            <!-- FormSubmit Configuration -->
+                            <input type="hidden" name="_subject" value="New Portfolio Message via Cyberpunk Terminal!">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder=" ">
+                                <label for="name">ID_Handle (Name)</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder=" ">
+                                <label for="email">Comm_Link (Email)</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message">Transmission_Data (Message)</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <button type="submit" id="submitBtn" class="btn btn-primary glow-on-hover btn-submit">
+                                <i class="fas fa-paper-plane"></i> <span id="btnText">Transmit</span>
+                            </button>
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                    
+                    <div class="social-links glass-card">
+                        <h4>Network_Links</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/akshreyagupta28-source" class="social-icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/shreya-gupta-42a775326" class="social-icon" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.credly.com/users/shreya-gupta.1cc38692" class="social-icon" target="_blank" aria-label="Credly"><i class="fas fa-award"></i></a>
+                            <a href="mailto:akshreyagupta28@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+917440712325" class="social-icon" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        </div>
+                        <p style="margin-top: 15px; text-align: center; color: var(--cyan); font-family: 'Courier New', Courier, monospace; font-size: 0.95rem; line-height: 1.6;">
+                            akshreyagupta28@gmail.com<br>
+                            +91 7440712325
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Designed & Built by <span class="neon-text-cyan">Shreya Gupta</span></p>
+            <p class="footer-sub">System Online v1.0.0 &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
