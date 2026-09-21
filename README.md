@@ -131,7 +131,6 @@ You can easily host this portfolio for free using **GitHub Pages**:
 2. Click on **Settings** → **Pages** (in the left sidebar).
 3. Under **Build and deployment** > **Branch**, select `main` and `/ (root)`.
 4. Click **Save**.
-5. Your portfolio will be live at `https://akshreyagupta28-source.github.io/MY-PORTFOLIO/` in a few moments!
 
 ---
 
